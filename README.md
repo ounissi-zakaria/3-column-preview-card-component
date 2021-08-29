@@ -30,8 +30,14 @@ Active Desktop view:
 
 
 Mobile View:
+
+
 <img src="./screenshots/mobile.png" alt="Mobile View" width="375">
+
+
 Active Mobile View:
+
+
 <img src="./screenshots/active-mobile.png" alt="Mobile View with active links" width="375">
 
 ### Links
