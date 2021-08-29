@@ -23,8 +23,12 @@ Users should be able to:
 ### Screenshot
 Desktop view:
 <img src="./screenshots/desktop.png" alt="Desktop View" width="1440">
+
+
 Active Desktop view:
 <img src="./screenshots/active-desktop.png" alt="Desktop View with active links" width="1440">
+
+
 Mobile View:
 <img src="./screenshots/mobile.png" alt="Mobile View" width="375">
 Active Mobile View:
@@ -32,7 +36,7 @@ Active Mobile View:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- [Live Site URL](https://ounissi-zakaria.github.io/3-column-preview-card-component/)
 
 ### Built with
 
@@ -42,4 +46,4 @@ Active Mobile View:
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@ounissi-zakaria](https://www.frontendmentor.io/profile/ounissi-zakaria)
