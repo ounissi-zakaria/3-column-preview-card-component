@@ -23,14 +23,15 @@ html, body{
 html, body, a {
   background-color: hsl(0, 0%, 95%);
 }
-body {
+body,main {
   display: flex;
 }
 main {
-  width: 87.2%;
+  width: 327px;
   margin: 13.6% auto;
   border-radius: 8px;
   overflow: hidden;
+  flex-direction: column;
 }
 div#first {
   background-color:hsl(31, 77%, 52%);
@@ -52,7 +53,8 @@ div#third a{
   color:hsl(179, 100%, 13%);
 }
 div.card {
-  padding: 14.7%;
+  padding: 48px;
+  height: 33.33%;
 }
 a {
   border-radius: 30px;
@@ -64,4 +66,27 @@ div#third a:active,div#second a:active, div#first a:active {
   border: 1px solid hsl(0, 0%, 95%);
   color: hsl(0, 0%, 95%);
   background-color: rgba(255, 0, 0, 0);
+}
+
+@media only screen and (min-width: 1024px) {
+  main {
+    flex-direction: row;
+    flex-shrink: 0;
+    margin: auto;
+    margin-top: 21.25vh;
+    height: 500px;
+    width: 920px;
+    overflow-x: scroll;
+  }
+  body, html {
+    overflow-x: scroll;
+    height: 100%
+  }
+  div.card {
+    width: 33.33%;
+    height: 100%;
+  }
+  p {
+    margin-bottom: 88px;
+  }
 }
