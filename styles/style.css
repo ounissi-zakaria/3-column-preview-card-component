@@ -76,11 +76,10 @@ div#third a:active,div#second a:active, div#first a:active {
     margin-top: 21.25vh;
     height: 500px;
     width: 920px;
-    overflow-x: scroll;
   }
   body, html {
-    overflow-x: scroll;
-    height: 100%
+    height: 100%;
+    overflow-y: hidden;
   }
   div.card {
     width: 33.33%;
